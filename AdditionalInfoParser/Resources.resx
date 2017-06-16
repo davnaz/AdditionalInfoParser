@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="apartment" xml:space="preserve">
+    <value>apartment</value>
+  </data>
+  <data name="assistedliving" xml:space="preserve">
+    <value>assisted living</value>
+  </data>
+  <data name="attachedgarage" xml:space="preserve">
+    <value>attached garage</value>
+  </data>
+  <data name="carport" xml:space="preserve">
+    <value>carport</value>
+  </data>
+  <data name="catsok" xml:space="preserve">
+    <value>cats are OK - purrr</value>
+  </data>
+  <data name="condo" xml:space="preserve">
+    <value>condo</value>
+  </data>
+  <data name="cottagecabin" xml:space="preserve">
+    <value>cottage/cabin</value>
+  </data>
+  <data name="DbConnectionString" xml:space="preserve">
+    <value>Data Source=rentml.database.windows.net;Initial Catalog=CraigsList;Persist Security Info=True;User ID=rentml;Password=mlrent-1404;TrustServerCertificate=True</value>
+    <comment>Connection String to DB</comment>
+  </data>
+  <data name="detachedgarage" xml:space="preserve">
+    <value>detached garage</value>
+  </data>
+  <data name="dogsok" xml:space="preserve">
+    <value>dogs are OK - wooof</value>
+  </data>
+  <data name="duplex" xml:space="preserve">
+    <value>duplex</value>
+  </data>
+  <data name="flat" xml:space="preserve">
+    <value>flat</value>
+  </data>
+  <data name="furnished" xml:space="preserve">
+    <value>furnished</value>
+  </data>
+  <data name="house" xml:space="preserve">
+    <value>house</value>
+  </data>
+  <data name="inlaw" xml:space="preserve">
+    <value>in-law</value>
+  </data>
+  <data name="InsertProcedure" xml:space="preserve">
+    <value>AdditionalInfoInsert</value>
+    <comment>Процедура добавления записи в БД</comment>
+  </data>
+  <data name="land" xml:space="preserve">
+    <value>land</value>
+  </data>
+  <data name="laundryinbldg" xml:space="preserve">
+    <value>laundry in bldg</value>
+  </data>
+  <data name="laundryonsite" xml:space="preserve">
+    <value>laundry on site</value>
+  </data>
+  <data name="loft" xml:space="preserve">
+    <value>loft</value>
+  </data>
+  <data name="manufactured" xml:space="preserve">
+    <value>manufactured</value>
+  </data>
+  <data name="nolaundryonsite" xml:space="preserve">
+    <value>no laundry on site</value>
+  </data>
+  <data name="noparking" xml:space="preserve">
+    <value>no parking</value>
+  </data>
+  <data name="nosmoking" xml:space="preserve">
+    <value>no smoking</value>
+  </data>
+  <data name="NumberOfThreads" xml:space="preserve">
+    <value>10</value>
+    <comment>количество потоков обработки/количество строк в партии, которые вытаскиваем из БД</comment>
+  </data>
+  <data name="offstreetparking" xml:space="preserve">
+    <value>off-street parking</value>
+  </data>
+  <data name="streetparking" xml:space="preserve">
+    <value>street parking</value>
+  </data>
+  <data name="townhouse" xml:space="preserve">
+    <value>townhouse</value>
+  </data>
+  <data name="valetparking" xml:space="preserve">
+    <value>valet parking</value>
+  </data>
+  <data name="wdhookups" xml:space="preserve">
+    <value>w/d hookups</value>
+  </data>
+  <data name="wdinunit" xml:space="preserve">
+    <value>w/d in unit</value>
+  </data>
+  <data name="wheelchairaccess" xml:space="preserve">
+    <value>wheelchair accessible</value>
+  </data>
+</root>
